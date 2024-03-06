@@ -9,19 +9,36 @@ body {
 header h1 {
   text-align: center;
   color: black;
+  font-family: Andale Mono, monospace;
 }
   
 #planets {
   position: relative;
   margin: 0 auto;
-  top: 200px;
+  top: 100px;
   text-align: center;
   border-collapse:collapse;
   color:black;
+  width: 90%;
 }
 
 #planets tr {
   background-color: white;
+  font-weight: 800;
+}
+
+#planets th {
+  font-size: 1.3em;
+
+}
+
+#planets td {
+  font-weight: 700;
+}
+
+#planets img {
+  max-height: 50%;
+  max-width: 50%;
 }
 
 .earth {
@@ -39,4 +56,3 @@ header h1 {
 .uranus {
   background-color: #80ccff;
 }
-
